@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container .row .col-md-5 .card .card-body #form1 .form-group input {
+    position: relative;
+}
+
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon1,
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon2,
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon12,
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon22 {
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    right: 30px;
+}
+
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon1 {
+    color: #a5a5a5;
+    bottom: 150px;
+    margin-right: 15px;
+}
+
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon2 {
+    color: #a5a5a5;
+    bottom: 70px;
+    margin-right: 15px;
+}
+
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon1.active,
+.container .row .col-md-5 .card .card-body #form1 .form-group .icon2.active {
+    color: #222;
+}
+
+/*# sourceMappingURL=style.css.map */
